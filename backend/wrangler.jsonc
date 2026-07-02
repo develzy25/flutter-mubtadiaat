@@ -1,0 +1,28 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "backend",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-07-01",
+  "compatibility_flags": [
+    "nodejs_compat"
+  ],
+  "vars": {
+    "BETTER_AUTH_SECRET": "super-secret-key-for-development-only",
+    "BETTER_AUTH_URL": "http://localhost:8787",
+    "CLOUDINARY_CLOUD_NAME": "dummy_cloud_name",
+    "CLOUDINARY_API_KEY": "dummy_api_key",
+    "CLOUDINARY_API_SECRET": "dummy_api_secret"
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "mubtadiat-db",
+      "database_id": "00000000-0000-0000-0000-000000000000",
+      "migrations_dir": "./drizzle"
+    }
+  ],
+  "observability": {
+    "enabled": true,
+    "head_sampling_rate": 1
+  }
+}

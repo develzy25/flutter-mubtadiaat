@@ -1,6 +1,6 @@
 import { SANTRI_LIRBOYO_SEED } from '../../../mocks/santri.seed';
 
-const API_URL = import.meta.env.VITE_API_URL || 'https://backend.eppds.workers.dev/api';
+const API_URL = import.meta.env.DEV ? 'http://localhost:8787/api' : '/api';
 
 export interface AttendanceDetail {
   santriId: string;

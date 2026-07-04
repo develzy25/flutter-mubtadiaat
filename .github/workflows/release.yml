@@ -33,7 +33,9 @@ jobs:
 
       - name: Recreate Platform Folders
         working-directory: ./mubtadiaat_app
-        run: flutter create .
+        run: |
+          flutter create .
+          git checkout -- web/
 
       - name: Install Dependencies
         working-directory: ./mubtadiaat_app

@@ -1,0 +1,41 @@
+{
+  "version": "7",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1783140068267,
+      "tag": "0000_sharp_white_tiger",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1783142080023,
+      "tag": "0001_lively_maria_hill",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1783144162529,
+      "tag": "0002_chubby_scourge",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "6",
+      "when": 1783144957769,
+      "tag": "0003_peaceful_sersi",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "6",
+      "when": 1783145056891,
+      "tag": "0004_ancient_northstar",
+      "breakpoints": true
+    }
+  ]
+}

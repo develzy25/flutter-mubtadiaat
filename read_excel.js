@@ -1,0 +1,1 @@
+const xlsx = require('xlsx'); const wb = xlsx.readFile('docs/SALIN RAPOT 2 ALY 25-26.xlsx'); const sheetName = wb.SheetNames[0]; const sheet = wb.Sheets[sheetName]; const data = xlsx.utils.sheet_to_json(sheet, {header: 1}); console.log(JSON.stringify(data.slice(0, 50), null, 2));

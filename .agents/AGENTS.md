@@ -1,4 +1,4 @@
-﻿# Mubtadi'at Project Rules
+# Mubtadi'at Project Rules
 
 ## Excel Import Template Standards
 
@@ -95,7 +95,13 @@ Untuk export, gunakan ExcelJS agar format konsisten. Untuk import/parsing data m
 
 | Role ID | Nama Role  | Portal             |
 |---------|------------|--------------------|
-| 1       | Admin      | Web Desktop        |
-| 2       | Mundzir    | Web Desktop        |
-| 3       | Mufatish   | Web Desktop        |
-| 4       | Mustahiq   | PWA Mobile Android |
+| 1       | Admin      | SOFTWARE Desktop   |
+| 2       | Mundzir    | APK Mobile Android |
+| 3       | Mufatish   | APK Mobile Android |
+| 4       | Mustahiq   | APK Mobile Android |
+
+---
+
+## Ketentuan Fitur Kehadiran/Absensi
+TIDAK ADA ABSENSI MUSTAHIQ.
+Fitur kehadiran (input maupun rekap) murni digunakan untuk mengelola data kehadiran **Siswi**, bukan kehadiran guru/Mustahiq.
